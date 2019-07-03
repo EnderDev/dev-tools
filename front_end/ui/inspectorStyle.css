@@ -33,9 +33,9 @@
 }
 
 :root {
-    --accent-color: #1a73e8;
-    --accent-fg-color: #1a73e8;
-    --accent-color-hover: #3b86e8;
+    --accent-color: #181818;
+    --accent-fg-color: #535353;
+    --accent-color-hover: #bdbdbd;
     --focus-bg-color: hsl(214, 40%, 92%);
     --toolbar-bg-color: #f3f3f3;
     --toolbar-hover-bg-color: #eaeaea;
@@ -97,16 +97,16 @@ body {
 
 .platform-linux {
     color: rgb(48, 57, 66);
-    font-family: Roboto, Ubuntu, Arial, sans-serif;
+    font-family: Roboto;
 }
 
 .platform-mac {
     color: rgb(48, 57, 66);
-    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif;
+    font-family: Roboto;
 }
 
 .platform-windows {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: Roboto;
 }
 
 .panel {
